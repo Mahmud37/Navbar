@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    font-family: cursive, fantasy;
+    text-decoration: none;
+}
+
+h3{
+    text-align: center;
+    margin: 50px;
+}
+
+.fdiv{
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+}
+
+.fdiv2{
+    border: 2px solid black;
+    background-color: burlywood;
+    position: relative;
+    margin: 10px;
+}
+
+.spanclass1{
+    padding: 2px 20px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    background-color: rgb(230, 107, 174);
+    position: absolute;
+    right: 0px;
+}
+.spanclass2{
+    padding: 2px 20px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    background-color: rgb(238, 59, 27);
+    position: absolute;
+    right: 0px;
+}
+.spanclass3{
+    padding: 2px 20px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    background-color: rgb(230, 225, 168);
+    position: absolute;
+    right: 0px;
+}
+
+
+
+@media screen and (min-width:992px){
+    .col-lg-4{ 
+        width: 33%;
+        float: left;
+    }
+}
+@media screen and (min-width:768px) and (max-width: 991px){
+    .col-md-6{ 
+        width: 50%;
+        float: left;
+    }
+    .xx{
+        width: 100%;
+        float: left;
+    }
+}
+@media screen and (max-width: 767px){
+    .col-sm-12{
+        width: 100%;
+        float: left;
+    }
+}
+
+
+/* logo start */
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 60%;
+    border: 2px solid black;
+}
+
+.bg{
+    background-color: rgb(197, 201, 8);
+}
+.name{
+    margin: 20px;
+}
+
+.dec{
+    justify-content: center;
+    background-color: silver;
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 5px;
+}
+a:hover{
+    text-decoration: none;
+}
